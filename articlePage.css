@@ -1,0 +1,98 @@
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    background-color: #333;
+    justify-content: center;
+    color: #fff;
+    padding: 10px;
+    width: 99%;
+    height: auto;
+    flex-direction: row;
+    text-align: center;
+}
+
+.separation-bar {
+    background-color: rgb(0, 0, 0);
+    height: 2px;
+    margin: 0;
+}
+
+.article-container {
+    background-color: #fff;
+    margin: 60px;
+    margin-bottom: 60px;
+    border-radius: 7px;
+    width: 90%;
+    height: auto;
+    padding: 20px;
+}
+
+.article {
+    margin-bottom: 20px;
+    padding: 40px;
+}
+
+.title{
+    font-size: 35px;
+    margin: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.signature{
+    font-size: 12px;
+}
+
+.back-button{
+    margin: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffd500;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.logout {
+    text-decoration: none;
+    color: #ffd500;
+    font-weight: bold;
+    margin: 20px;
+    position: relative;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 20px auto;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #f2f2f2;
+}
