@@ -26,7 +26,7 @@ h1 {
     margin: 40px auto;
     padding: 0 20px;
 }
-.article {
+article {
     display: flex;
     align-items: center;
     background-color: #fff;
@@ -78,4 +78,13 @@ footer {
 
 .add-com{
     position: relative;
+}
+
+.label-invisible {
+    position: absolute;
+    left: -9999px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
 }
