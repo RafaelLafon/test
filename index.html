@@ -1,47 +1,41 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>TP1 - Page de Connexion</title>
+  <meta name="description" content="Page de connexion au site Doves's Blog">
   <link rel="stylesheet" href="login.css">
 </head>
-
 <body>
-  <div class="block-content">
-    <header>
-      <h1>Connexion</h1>
-      <div class="text-block">
-        <p>Ceci est une page de connexion.<br>S'il vous plaît, utilisez votre compte afin de vous connecter et de profiter pleinement du site.</p>
-      </div>
-    </header>
+  <header>
+    <h1>Connexion</h1>
+    <p>Ceci est une page de connexion.<br>S'il vous plaît, utilisez votre compte afin de vous connecter et de profiter pleinement du site.</p>
+  </header>
 
-    <main>
-      <div class="login-form-container">
-        <form action="homePage.html">
-          <div>
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email" required autofocus autocomplete="username">
-          </div>
-          <div>
-            <label for="password">Mot de passe:</label><br>
-            <input type="password" id="password" name="password" required><br><br>
-          </div>
-
-          <input class="submit-button" type="submit" value="Connexion">
-        </form>
-        <div class="separation-bar"></div>
-        <div class="register-text-option">
-          Vous n'avez pas de compte ? <a href="register.html">Créer un compte</a>
+  <main>
+    <div class="login-form-container">
+      <form action="homePage.html">
+        <div>
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" required autofocus autocomplete="username">
         </div>
+        <div>
+          <label for="password">Mot de passe:</label><br>
+          <input type="password" id="password" name="password" required><br><br>
+        </div>
+        <input class="submit-button" type="submit" value="Connexion">
+      </form>
+      <div class="separation-bar"></div>
+      <div class="register-text-option">
+        <p>Vous n'avez pas de compte ? <a href="register.html">Créer un compte</a></p>
       </div>
-    </main>
-  </div>
+    </div>
+  </main>
 
   <footer>
     <p>&copy; 2024 Doves's Blog. Tous droits réservés.</p>
   </footer>
 </body>
-
 </html>
+
